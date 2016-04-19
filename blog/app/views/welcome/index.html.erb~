@@ -1,0 +1,6 @@
+<h1>BLOG</h1>
+
+Hello Rails
+
+
+<%= link_to 'New article', edit_article_path %>
