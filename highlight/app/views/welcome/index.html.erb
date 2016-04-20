@@ -1,0 +1,26 @@
+<!-- Adding the ng-app declaration to initialize AngularJS -->
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+<link rel="stylesheet" href="welcome.css">
+</head>
+	<body>
+
+<div id="main" ng-app>
+	
+<nav class="{{active}}" ng-click="$event.preventDefault()">
+
+		<a href="#" class="mail" ng-click="active='mail'">Mail</a>
+		<a href="#" class="gallery" ng-click="active='gallery'">Gallery</a>
+		<a href="#" class="maps" ng-click="active='maps'">Maps</a>
+		<a href="#" class="videos" ng-click="active='videos'">Videos</a>
+		<a href="#" class="search" ng-click="active='search'">Search</a>
+	</nav>
+
+	
+	<p ng-hide="active">Please click a menu item</p>
+	<p ng-show="active">You chose <b>{{active}}</b></p>
+</div>
+	</body>
+</html>
