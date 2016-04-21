@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<body>
+
+<script>
+var app = angular.module("myShoppingList", []); 
+app.controller("myCtrl", function($scope) {
+    $scope.products = ["Rice", "Atta", "Oil"];
+    $scope.addItem = function () {
+        $scope.products.push($scope.addMe);
+    }    
+    $scope.removeItem = function (x) {
+        $scope.products.splice(x, 1);
+    }
+});
+</script>
+<h2><font color="6699ff">Mini Shopping </font></h2>
+
+<h4> <font color="green">ItemList </font></h4>
+<div ng-app="myShoppingList" ng-controller="myCtrl">
+  <ul>
+    <li ng-repeat="x in products">{{x}}<span ng-click="removeItem($index)"><font color="red">     X</font></span></li>
+  </ul>
+<p><h5><font color="#990000">Add the items instantly to the list</font></h5></p>
+  <input ng-model="addMe">
+  <button ng-click="addItem()" class="button">Add</button>
+</div>
+
+<p>Click the little <font color="red"> X </font> to remove an item from the shopping list.</p>
+
+</body>
+</html>
