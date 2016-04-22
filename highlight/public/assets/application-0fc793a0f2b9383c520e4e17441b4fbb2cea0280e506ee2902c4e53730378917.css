@@ -1,0 +1,191 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font:15px/1.3 'Open Sans', sans-serif;
+	color: #5e5b64;
+	text-align:center;
+}
+
+a, a:visited {
+	outline:none;
+	color:#389dc1;
+}
+
+a:hover{
+	text-decoration:none;
+}
+
+section, footer, header, aside, nav{
+	display: block;
+}
+
+/*-------------------------
+	The menu
+--------------------------*/
+
+nav{
+	display:inline-block;
+	margin:60px auto 45px;
+	background-color:#5597b4;
+	box-shadow:0 1px 1px #ccc;
+	border-radius:2px;
+}
+
+nav a{
+	display:inline-block;
+	padding: 18px 30px;
+	color:#fff !important;
+	font-weight:bold;
+	font-size:16px;
+	text-decoration:none !important;
+	line-height:1;
+	text-transform: uppercase;
+	background-color:transparent;
+
+	-webkit-transition:background-color 0.25s;
+	-moz-transition:background-color 0.25s;
+	transition:background-color 0.25s;
+}
+
+nav a:first-child{
+	border-radius:2px 0 0 2px;
+}
+
+nav a:last-child{
+	border-radius:0 2px 2px 0;
+}
+nav.mail .mail,
+nav.gallery .gallery,
+nav.maps .maps,
+nav.videos .videos,
+nav.search .search
+{
+	background-color:#e35885;
+}
+
+p{
+	font-size:22px;
+	font-weight:bold;
+	color:#7d9098;
+}
+
+p b{
+	color:#ffffff;
+	display:inline-block;
+	padding:5px 10px;
+	background-color:#e35885;
+	border-radius:2px;
+	text-transform:uppercase;
+	font-size:18px;
+}
+/* line 1, /home/priya/Priya/Samples/highlight/app/assets/stylesheets/welcome.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 6, /home/priya/Priya/Samples/highlight/app/assets/stylesheets/welcome.scss */
+body {
+  font: 15px/1.3 'Open Sans', sans-serif;
+  color: #5e5b64;
+  text-align: center;
+}
+
+/* line 12, /home/priya/Priya/Samples/highlight/app/assets/stylesheets/welcome.scss */
+a, a:visited {
+  outline: none;
+  color: #389dc1;
+}
+
+/* line 17, /home/priya/Priya/Samples/highlight/app/assets/stylesheets/welcome.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 21, /home/priya/Priya/Samples/highlight/app/assets/stylesheets/welcome.scss */
+section, footer, header, aside, nav {
+  display: block;
+}
+
+/*-------------------------
+	The menu
+--------------------------*/
+/* line 29, /home/priya/Priya/Samples/highlight/app/assets/stylesheets/welcome.scss */
+nav {
+  display: inline-block;
+  margin: 60px auto 45px;
+  background-color: #5597b4;
+  box-shadow: 0 1px 1px #ccc;
+  border-radius: 2px;
+}
+
+/* line 37, /home/priya/Priya/Samples/highlight/app/assets/stylesheets/welcome.scss */
+nav a {
+  display: inline-block;
+  padding: 18px 30px;
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none !important;
+  line-height: 1;
+  text-transform: uppercase;
+  background-color: transparent;
+  -webkit-transition: background-color 0.25s;
+  -moz-transition: background-color 0.25s;
+  transition: background-color 0.25s;
+}
+
+/* line 53, /home/priya/Priya/Samples/highlight/app/assets/stylesheets/welcome.scss */
+nav a:first-child {
+  border-radius: 2px 0 0 2px;
+}
+
+/* line 57, /home/priya/Priya/Samples/highlight/app/assets/stylesheets/welcome.scss */
+nav a:last-child {
+  border-radius: 0 2px 2px 0;
+}
+
+/* line 61, /home/priya/Priya/Samples/highlight/app/assets/stylesheets/welcome.scss */
+nav.home .home,
+nav.projects .projects,
+nav.services .services,
+nav.contact .contact {
+  background-color: #e35885;
+}
+
+/* line 68, /home/priya/Priya/Samples/highlight/app/assets/stylesheets/welcome.scss */
+p {
+  font-size: 22px;
+  font-weight: bold;
+  color: #7d9098;
+}
+
+/* line 74, /home/priya/Priya/Samples/highlight/app/assets/stylesheets/welcome.scss */
+p b {
+  color: #ffffff;
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #c4d7e0;
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
